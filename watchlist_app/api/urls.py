@@ -5,4 +5,5 @@ urlpatterns = [
     path('',watchlist,name='watchlist'),
     path('<int:pk>/',watchlist_detail,name='watchlist_detail'),
 
+
 ]
